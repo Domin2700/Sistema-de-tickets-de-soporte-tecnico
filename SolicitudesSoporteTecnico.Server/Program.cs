@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using SolicitudesSoporteTecnico.Server.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,17 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+
+//Inyeccion del contexto de datos
+builder.Services.AddDbContext<SoporteDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SQLCnnSolicitudesSoporteTecnico"));
+
+});
+
+
 
 var app = builder.Build();
 
