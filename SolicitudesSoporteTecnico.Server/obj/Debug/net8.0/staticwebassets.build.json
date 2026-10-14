@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "+vTCt2nM3cjrxazhAcmFfouQU8+GAyzirvCn7X0LS8M=",
+  "Source": "SolicitudesSoporteTecnico.Server",
+  "BasePath": "_content/SolicitudesSoporteTecnico.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\solicitudessoportetecnico.client\\solicitudessoportetecnico.client.esproj",
+      "Version": 2,
+      "Source": "solicitudessoportetecnico.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

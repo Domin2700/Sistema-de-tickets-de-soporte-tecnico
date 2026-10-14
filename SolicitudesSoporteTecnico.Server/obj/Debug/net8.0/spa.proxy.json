@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:55923",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\..\\solicitudessoportetecnico.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
