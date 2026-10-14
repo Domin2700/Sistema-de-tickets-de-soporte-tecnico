@@ -6,7 +6,6 @@ namespace SolicitudesSoporteTecnico.Server.Models
     {
         [Key]
         public int IdCategoria { get; set; }
-        [Required,MaxLength(30)]
         public string NombreCategoria { get; set; }
         public bool Activo { get; set; }
     }

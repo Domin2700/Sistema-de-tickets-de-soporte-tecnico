@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SolicitudesSoporteTecnico.Server.Context;
+using SolicitudesSoporteTecnico.Server.Servicios;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+//Inyeccion del servicio
+builder.Services.AddScoped<
+    ISolicitudesService,
+    SolicitudesService>();
 
 //Inyeccion del contexto de datos
 builder.Services.AddDbContext<SoporteDbContext>(options =>

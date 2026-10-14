@@ -6,7 +6,6 @@ namespace SolicitudesSoporteTecnico.Server.Models
     {
         [Key]
         public int IdPrioridad { get; set; }
-        [Required, MaxLength(30)]
         public string NombrePrioridad { get; set; }
         public bool Activo { get; set; }
     }
