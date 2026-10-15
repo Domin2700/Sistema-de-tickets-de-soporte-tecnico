@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { SolicitudesService } from './services/solicitudes.service';  
 import { Categoria } from './models/categoria.interface';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
 interface WeatherForecast {
   date: string;
   temperatureC: number;
@@ -12,7 +13,8 @@ interface WeatherForecast {
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  standalone: false,
+  standalone: true,
+  imports:[NavbarComponent],
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
@@ -30,10 +32,11 @@ export class AppComponent implements OnInit {
     this.solicitudesService.obtenerCategorias().subscribe(
       (categorias) => {
         this.Categorias = categorias;
+        console.log("Categorias",this.Categorias);
+
       }
     );
-
-    console.log(this.Categorias);
+ 
   }
 
   getForecasts() {

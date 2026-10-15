@@ -16,7 +16,7 @@ namespace SolicitudesSoporteTecnico.Server.Controllers
         }
 
 
-        [HttpGet("getcategorias")]
+        [HttpGet("obtenercategorias")]
         public async Task<IEnumerable<Categoria>> GetCategorias()
         {
             return await _service.ObtenerCategorias();

@@ -24,8 +24,9 @@ export class SolicitudesService {
   // Obtener categorías
   obtenerCategorias(): Observable<Categoria[]> {
     return this.http.get<Categoria[]>(
-      `${this.apiUrl}/getcategorias`
+      `${this.apiUrl}/obtenercategorias`
     );
+
   }
 
   // Obtener estados

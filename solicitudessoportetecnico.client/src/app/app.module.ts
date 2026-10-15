@@ -4,16 +4,27 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { SoporteTecnicoComponent } from './components/soporte-tecnico/soporte-tecnico.component';
+import { ComentarioFormComponent } from './components/comentario-form/comentario-form.component';
+import { SolicitudFormComponent } from './/components/solicitud-form/solicitud-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    
+     
   ],
   imports: [
-    BrowserModule, HttpClientModule,
-    AppRoutingModule
+    BrowserModule, 
+    HttpClientModule,
+    AppRoutingModule,
+    NavbarComponent,
+    AppComponent,
+   SoporteTecnicoComponent,
+   ComentarioFormComponent,
+  SolicitudFormComponent
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
 export class AppModule { }
