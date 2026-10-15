@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './soporte-tecnico.component.css'
 })
 export class SoporteTecnicoComponent {
+  static SoporteTecnicoComponent: any;
 
 }

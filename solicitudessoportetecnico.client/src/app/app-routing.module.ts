@@ -1,23 +1,29 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [
 
-{
-path: '',
-redirectTo: 'solicitudes',
-pathMatch: 'full'
-},
-{
-path: 'solicitudes',
-loadComponent: () =>
-import('./components/solicitud-form/solicitud-form.component').then(m => m.SolicitudFormComponent).then(m => m.SolicitudFormComponent)
-},
-{
-path: '**',
-redirectTo: 'solicitudes'
-}
-
+export const routes: Routes = [
+  {
+    path: '',
+    redirectTo: 'solicitudes',
+    pathMatch: 'full'
+  },
+  {
+    path: 'solicitudes',
+    loadComponent: () =>
+      import('./components/solicitud-form/solicitud-form.component')
+        .then(m => m.SolicitudFormComponent)
+  },
+  {
+    path: 'soporte',
+    loadComponent: () =>
+      import('./components/soporte-tecnico/soporte-tecnico.component')
+        .then(m => m.SoporteTecnicoComponent)
+  },
+  {
+    path: '**',
+    redirectTo: 'solicitudes'
+  }
 ];
 
 @NgModule({

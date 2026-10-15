@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { environment } from '../../environments/environment.development';
-
 import { Categoria } from '../models/categoria.interface';
 import { Estado } from '../models/estado.interface';
 import { Prioridad } from '../models/prioridad.interface';

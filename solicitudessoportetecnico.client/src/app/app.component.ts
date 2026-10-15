@@ -3,28 +3,22 @@ import { Component, OnInit } from '@angular/core';
 import { SolicitudesService } from './services/solicitudes.service';  
 import { Categoria } from './models/categoria.interface';
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
-}
+import { RouterModule, RouterOutlet } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: true,
-  imports:[NavbarComponent],
+  imports:[RouterModule,NavbarComponent],
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
-  public forecasts: WeatherForecast[] = [];
   public Categorias : Categoria[] = [];
 
-  constructor(private http: HttpClient, private solicitudesService: SolicitudesService) {}
+  constructor( private solicitudesService: SolicitudesService) {}
 
   ngOnInit() {
-    this.getForecasts();
     this.getCategorias();
   }
 
@@ -39,16 +33,7 @@ export class AppComponent implements OnInit {
  
   }
 
-  getForecasts() {
-    this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(
-      (result) => {
-        this.forecasts = result;
-      },
-      (error) => {
-        console.error(error);
-      }
-    );
-  }
+
 
   title = 'solicitudessoportetecnico.client';
 }

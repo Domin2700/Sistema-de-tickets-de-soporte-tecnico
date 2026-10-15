@@ -18,11 +18,13 @@ import { SolicitudFormComponent } from './/components/solicitud-form/solicitud-f
     BrowserModule, 
     HttpClientModule,
     AppRoutingModule,
+    
     NavbarComponent,
     AppComponent,
    SoporteTecnicoComponent,
    ComentarioFormComponent,
-  SolicitudFormComponent
+  SolicitudFormComponent,
+  
   ],
   providers: [],
   bootstrap: []
