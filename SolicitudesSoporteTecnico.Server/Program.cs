@@ -25,12 +25,24 @@ builder.Services.AddDbContext<SoporteDbContext>(options =>
 });
 
 
+//Configuracion de Cors 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "SolicitudesPolicy", configurePolicy: policyBuilder => {
+        policyBuilder.WithOrigins("https://localhost:55923");
+        policyBuilder.AllowAnyMethod();
+        policyBuilder.AllowAnyHeader();
+        policyBuilder.AllowCredentials();
+    });
+});
 
 var app = builder.Build();
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
+
+app.UseCors("SolicitudesPolicy");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
