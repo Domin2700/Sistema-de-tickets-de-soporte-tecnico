@@ -7,36 +7,48 @@
       "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\servicios\\solicitudesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\models\\actualizarestado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\models\\actualizarestado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\servicios\\isolicitudesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\servicios\\isolicitudesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\context\\soportedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\context\\soportedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\models\\listasolicitudes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\models\\listasolicitudes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\servicios\\isolicitudesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\servicios\\isolicitudesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\models\\solicitudcomentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\models\\solicitudcomentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\context\\soportedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\context\\soportedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\models\\comentario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|solutionrelative:solicitudessoportetecnico.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13E83D46-D3B0-4B45-951A-009E5D5E6793}|SolicitudesSoporteTecnico.Server\\SolicitudesSoporteTecnico.Server.csproj|c:\\users\\damia\\onedrive\\documentos\\prueba tecnica programador de sistemas\\solicitudessoportetecnico\\solicitudessoportetecnico.server\\models\\prioridad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,17 +70,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SolicitudesService.cs",
+              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Servicios\\SolicitudesService.cs",
+              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Servicios\\SolicitudesService.cs",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Servicios\\SolicitudesService.cs",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Servicios\\SolicitudesService.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAqwLAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T20:13:02.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Comentario.cs",
+              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Comentario.cs",
+              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\Comentario.cs",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Comentario.cs",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Models\\Comentario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T03:08:00.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISolicitudesService.cs",
+              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Servicios\\ISolicitudesService.cs",
+              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Servicios\\ISolicitudesService.cs",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Servicios\\ISolicitudesService.cs",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Servicios\\ISolicitudesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T20:23:36.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Solicitud.cs",
+              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Solicitud.cs",
+              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\Solicitud.cs",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Solicitud.cs",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Models\\Solicitud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T20:58:53.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SoporteDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Context\\SoporteDbContext.cs",
+              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Context\\SoporteDbContext.cs",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Context\\SoporteDbContext.cs",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Context\\SoporteDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T02:43:55.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SolicitudesController.cs",
+              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Controllers\\SolicitudesController.cs",
+              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Controllers\\SolicitudesController.cs",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Controllers\\SolicitudesController.cs",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Controllers\\SolicitudesController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T04:21:08.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ActualizarEstado.cs",
               "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\ActualizarEstado.cs",
               "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\ActualizarEstado.cs",
               "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\ActualizarEstado.cs*",
               "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Models\\ActualizarEstado.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T03:24:34.657Z",
               "EditorCaption": ""
@@ -76,45 +166,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SoporteDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Context\\SoporteDbContext.cs",
-              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Context\\SoporteDbContext.cs",
-              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Context\\SoporteDbContext.cs*",
-              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Context\\SoporteDbContext.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T02:43:55.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ISolicitudesService.cs",
-              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Servicios\\ISolicitudesService.cs",
-              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Servicios\\ISolicitudesService.cs",
-              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Servicios\\ISolicitudesService.cs*",
-              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Servicios\\ISolicitudesService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T20:23:36.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ListaSolicitudes.cs",
               "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\ListaSolicitudes.cs",
               "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\ListaSolicitudes.cs",
-              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\ListaSolicitudes.cs*",
-              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Models\\ListaSolicitudes.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAABMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\ListaSolicitudes.cs",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Models\\ListaSolicitudes.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wBYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-14T20:58:46.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Program.cs",
+              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Program.cs",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T04:36:25.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Estado.cs",
               "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Estado.cs",
               "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\Estado.cs",
@@ -127,59 +204,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SolicitudesService.cs",
-              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Servicios\\SolicitudesService.cs",
-              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Servicios\\SolicitudesService.cs",
-              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Servicios\\SolicitudesService.cs*",
-              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Servicios\\SolicitudesService.cs*",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAwwJoAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T20:13:02.013Z",
+              "WhenOpened": "2026-10-15T05:49:51.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Solicitud.cs",
-              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Solicitud.cs",
-              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\Solicitud.cs",
-              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Solicitud.cs",
-              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Models\\Solicitud.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T20:58:53.677Z",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\appsettings.Development.json",
+              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-15T04:32:13.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SolicitudComentario.cs",
-              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\SolicitudComentario.cs",
-              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\SolicitudComentario.cs",
-              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\SolicitudComentario.cs",
-              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Models\\SolicitudComentario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T03:11:53.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Comentario.cs",
-              "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Comentario.cs",
-              "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\Comentario.cs",
-              "ToolTip": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Comentario.cs",
-              "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Models\\Comentario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T03:08:00.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Prioridad.cs",
               "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Prioridad.cs",
               "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\Prioridad.cs",
@@ -187,12 +238,11 @@
               "RelativeToolTip": "SolicitudesSoporteTecnico.Server\\Models\\Prioridad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-14T18:47:35.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-14T18:47:35.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\SolicitudesSoporteTecnico.Server\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "SolicitudesSoporteTecnico.Server\\Models\\Categoria.cs",
@@ -204,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\damia\\OneDrive\\Documentos\\Prueba tecnica programador de sistemas\\SolicitudesSoporteTecnico\\solicitudessoportetecnico.client\\src\\index.html",
               "RelativeDocumentMoniker": "solicitudessoportetecnico.client\\src\\index.html",

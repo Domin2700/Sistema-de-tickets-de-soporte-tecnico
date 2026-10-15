@@ -19,10 +19,8 @@ namespace SolicitudesSoporteTecnico.Server.Models
         [Required]
         public int IdPrioridad { get; set; }
         public int? IdEstado { get; set; }
-        public DateTime FechaCreacion { get; set; }
-        public string?  CodigoSolicitud { get; set; }
-     
+       // public DateTime FechaCreacion { get; set; }
         public string? Resolucion { get; set; }
-        public bool?  Activo { get; set; }
+       // public bool?  Activo { get; set; }
     }
 }
