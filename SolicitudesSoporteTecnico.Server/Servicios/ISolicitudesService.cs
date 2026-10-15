@@ -7,9 +7,11 @@ namespace SolicitudesSoporteTecnico.Server.Servicios
         Task<IEnumerable<Categoria>> ObtenerCategorias();
         Task<IEnumerable<Prioridad>> ObtenerPrioridades();
         Task<IEnumerable<Estado>> ObtenerEstados();
-        Task<IEnumerable<ListaSolicitudes>> ObtenerListaSolicitudes();
+        Task<IEnumerable<ListaSolicitudes>> ObtenerListaSolicitudes(int pagina, int paginaSize);
 
         Task GuardarSolicitud(Solicitud solicitud);
+        Task GuardarComentario(Comentario comentario);
+        Task ActualizarEstado(ActualizarEstado estado);
 
     }
 }

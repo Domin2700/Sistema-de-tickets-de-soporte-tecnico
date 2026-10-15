@@ -4,7 +4,7 @@ namespace SolicitudesSoporteTecnico.Server.Models
 {
     public class ListaSolicitudes
     {
-        [Key]
+        
         public int? IdSolicitud { get; set; }
         public string NombreSolicitante { get; set; }
         public string Correo { get; set; }
@@ -16,9 +16,10 @@ namespace SolicitudesSoporteTecnico.Server.Models
         public int IdEstado {  get; set; }
         public DateTime FechaCreacion { get; set; }
         public string? CodigoSolicitud { get; set; }
-        public string? Comentario { get; set; }
-        public DateTime FechaComentario { get; set; }
+      
         public string? Resolucion { get; set; }
+        public virtual ICollection<SolicitudComentario> SolicitudComentarios { get; set; }
+
         public bool? Activo { get; set; }
     }
 }

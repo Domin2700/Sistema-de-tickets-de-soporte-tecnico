@@ -21,8 +21,7 @@ namespace SolicitudesSoporteTecnico.Server.Models
         public int? IdEstado { get; set; }
         public DateTime FechaCreacion { get; set; }
         public string?  CodigoSolicitud { get; set; }
-        public string? Comentario { get; set; }
-        public DateTime FechaComentario { get; set; }
+     
         public string? Resolucion { get; set; }
         public bool?  Activo { get; set; }
     }
