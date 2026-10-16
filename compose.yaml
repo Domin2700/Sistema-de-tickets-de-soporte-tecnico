@@ -3,7 +3,7 @@ services:
     build:
       context: ./SolicitudesSoporteTecnico.Server
       dockerfile: Dockerfile
-    container_name: solicitudes-api
+    container_name: api
     environment:
       ASPNETCORE_ENVIRONMENT: Production
       ASPNETCORE_HTTP_PORTS: "8080"
@@ -29,13 +29,17 @@ services:
       - solicitudes-net
     restart: unless-stopped
 
+
+
   db:
     image: mcr.microsoft.com/mssql/server:2022-latest
     container_name: solicitudes-db
     environment:
       ACCEPT_EULA: "Y"
-      MSSQL_PID: Developer
+      MSSQL_PID: "Developer"
       MSSQL_SA_PASSWORD: ${SA_PASSWORD}
+    ports:
+      - "1433:1433"
     volumes:
       - sqlserver-data:/var/opt/mssql
     networks:
@@ -48,6 +52,7 @@ networks:
 
 volumes:
   sqlserver-data:
+
 
 
 

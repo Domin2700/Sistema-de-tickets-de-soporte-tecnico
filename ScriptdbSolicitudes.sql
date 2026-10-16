@@ -44,3 +44,11 @@ IdSolicitud INT NOT NULL FOREIGN KEY REFERENCES Solicitud(IdSolicitud) DEFAULT 1
 Activo Bit NOT NULL DEFAULT 1
 );
 
+CREATE VIEW [dbo].[vw_ListaSolicitudes]
+AS
+SELECT dbo.Solicitud.*, dbo.Prioridad.NombrePrioridad, dbo.Estado.NombreEstado, dbo.Categoria.NombreCategoria
+FROM     dbo.Solicitud INNER JOIN
+                  dbo.Prioridad ON dbo.Solicitud.IdPrioridad = dbo.Prioridad.IdPrioridad INNER JOIN
+                  dbo.Estado ON dbo.Solicitud.IdEstado = dbo.Estado.IdEstado INNER JOIN
+                  dbo.Categoria ON dbo.Solicitud.IdCategoria = dbo.Categoria.IdCategoria
+GO
