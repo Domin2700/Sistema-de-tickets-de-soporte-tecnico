@@ -7,7 +7,7 @@ namespace SolicitudesSoporteTecnico.Server.Models
 
         [Key]
         public int? IdComentario { get; set; }
-        
+        [Required,MaxLength(500)]
         public string? DetalleComentario { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public int IdSolicitud {  get; set; }

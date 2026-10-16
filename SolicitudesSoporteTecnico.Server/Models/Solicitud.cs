@@ -6,13 +6,13 @@ namespace SolicitudesSoporteTecnico.Server.Models
     {
         [Key]
         public int? IdSolicitud {  get; set; }   
-        [Required,MaxLength(50)]
+        [Required,MaxLength(100)]
         public string NombreSolicitante { get; set; }
-        [Required,MaxLength(50)]
+        [Required,MaxLength(100)]
         public string Correo {  get; set; } 
-        [Required,MaxLength(50)]
+        [Required,MaxLength(500)]
         public string Asunto { get; set; }
-        [Required,MaxLength(50)]
+        [Required,MaxLength(500)]
         public string Descripcion { get; set; } 
         [Required]
         public int IdCategoria { get; set; }

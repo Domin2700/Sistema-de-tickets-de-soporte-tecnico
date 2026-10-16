@@ -13,6 +13,9 @@ namespace SolicitudesSoporteTecnico.Server.Models
         public string NombreCategoria { get; set; }
         public string NombrePrioridad { get; set; }
         public string NombreEstado { get; set; }
+        public int IdPrioridad { get; set; }
+        public int IdCategoria { get; set; }
+
         public int IdEstado {  get; set; }
         public DateTime FechaCreacion { get; set; }
         public string? CodigoSolicitud { get; set; }

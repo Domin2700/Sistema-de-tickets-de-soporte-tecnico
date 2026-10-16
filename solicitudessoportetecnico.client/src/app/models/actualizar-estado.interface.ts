@@ -1,5 +1,5 @@
 export interface ActualizarEstado {
-idSolicitud: number;
+idSolicitud: number  | null
 idEstado: number;
 resolucion?: string | null;
 }

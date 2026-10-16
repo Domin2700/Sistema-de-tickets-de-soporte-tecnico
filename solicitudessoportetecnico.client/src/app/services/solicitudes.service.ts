@@ -60,6 +60,7 @@ export class SolicitudesService {
       `${this.apiUrl}/guardarsolicitud`,
       solicitud
     );
+    console.log('Solicitud enviada:', solicitud);
   }
 
   // Guardar un comentario
@@ -82,3 +83,5 @@ export class SolicitudesService {
     );
   }
 }
+
+// export { Categoria, Prioridad };

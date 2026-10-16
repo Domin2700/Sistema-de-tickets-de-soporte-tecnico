@@ -1,1 +1,199 @@
-<p>solicitud-form works!</p>
+
+<div class="card shadow-sm">
+  <div class="card-header bg-primary text-white">
+    <h4 class="mb-0">Registrar solicitud</h4>
+  </div>
+
+  <div class="card-body">
+
+    <!-- Mensajes -->
+    <div *ngIf="error" class="alert alert-danger">
+      {{ error }}
+    </div>
+
+    <div *ngIf="mensaje" class="alert alert-success">
+      {{ mensaje }}
+    </div>
+
+    <!-- Formulario -->
+    <form
+      [formGroup]="solicitudForm"
+      (ngSubmit)="registrarSolicitud()"
+      novalidate
+    >
+
+      <!-- Nombre del solicitante -->
+      <div class="mb-3">
+        <label class="form-label">Nombre del solicitante</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="nombreSolicitante"
+        >
+
+        <small
+          class="text-danger"
+          *ngIf="solicitudForm.controls.nombreSolicitante.touched &&
+                 solicitudForm.controls.nombreSolicitante.invalid"
+        >
+          El nombre es obligatorio.
+        </small>
+      </div>
+
+      <!-- Correo electrónico -->
+      <div class="mb-3">
+        <label class="form-label">Correo electrónico</label>
+        <input
+          type="email"
+          class="form-control"
+          formControlName="correo"
+        >
+
+        <small
+          class="text-danger"
+          *ngIf="solicitudForm.controls.correo.touched &&
+                 solicitudForm.controls.correo.invalid"
+        >
+          Introduce un correo válido.
+        </small>
+      </div>
+
+      <!-- Asunto -->
+      <div class="mb-3">
+        <label class="form-label">Asunto</label>
+        <input
+          type="text"
+          class="form-control"
+          formControlName="asunto"
+        >
+
+        <small
+          class="text-danger"
+          *ngIf="solicitudForm.controls.asunto.touched &&
+                 solicitudForm.controls.asunto.invalid"
+        >
+          El asunto es obligatorio.
+        </small>
+      </div>
+
+      <!-- Descripción -->
+      <div class="mb-3">
+        <label class="form-label">Descripción</label>
+        <textarea
+          class="form-control"
+          rows="4"
+          formControlName="descripcion"
+        ></textarea>
+
+        <small
+          class="text-danger"
+          *ngIf="solicitudForm.controls.descripcion.touched &&
+                 solicitudForm.controls.descripcion.invalid"
+        >
+          La descripción es obligatoria.
+        </small>
+      </div>
+
+      <!-- Categoría, prioridad y estado -->
+      <div class="row">
+
+        <div class="col-md-4 mb-3">
+          <label class="form-label">Categoría</label>
+          <select
+            class="form-select"
+            formControlName="idCategoria"
+          >
+            <option [ngValue]="null">Seleccione...</option>
+
+            <option
+              *ngFor="let c of categorias"
+              [ngValue]="c.idCategoria"
+            >
+              {{ c.nombreCategoria }}
+            </option>
+          </select>
+
+          <small
+            class="text-danger"
+            *ngIf="solicitudForm.controls.idCategoria.touched &&
+                   solicitudForm.controls.idCategoria.invalid"
+          >
+            Selecciona una categoría.
+          </small>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label class="form-label">Prioridad</label>
+          <select
+            class="form-select"
+            formControlName="idPrioridad"
+          >
+            <option [ngValue]="null">Seleccione...</option>
+
+            <option
+              *ngFor="let p of prioridades"
+              [ngValue]="p.idPrioridad"
+            >
+              {{ p.nombrePrioridad }}
+            </option>
+          </select>
+
+          <small
+            class="text-danger"
+            *ngIf="solicitudForm.controls.idPrioridad.touched &&
+                   solicitudForm.controls.idPrioridad.invalid"
+          >
+            Selecciona una prioridad.
+          </small>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label class="form-label">Estado</label>
+          <select
+            class="form-select"
+            formControlName="idEstado"
+          >
+            <option [ngValue]="null">Seleccione...</option>
+
+            <option
+              *ngFor="let e of estados"
+              [ngValue]="e.idEstado"
+            >
+              {{ e.nombreEstado }}
+            </option>
+          </select>
+
+          <small
+            class="text-danger"
+            *ngIf="solicitudForm.controls.idEstado.touched &&
+                   solicitudForm.controls.idEstado.invalid"
+          >
+            Selecciona un estado.
+          </small>
+        </div>
+
+      </div>
+
+      <!-- Botones -->
+      <div class="d-flex gap-2 mt-3">
+        <button
+          type="submit"
+          class="btn btn-primary"
+          [disabled]="cargando"
+        >
+          {{ cargando ? 'Guardando...' : 'Registrar solicitud' }}
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-secondary"
+          (click)="limpiarFormulario()"
+        >
+          Limpiar
+        </button>
+      </div>
+
+    </form>
+  </div>
+</div>
+```

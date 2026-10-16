@@ -1,0 +1,53 @@
+services:
+  api:
+    build:
+      context: ./SolicitudesSoporteTecnico.Server
+      dockerfile: Dockerfile
+    container_name: solicitudes-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_HTTP_PORTS: "8080"
+      SQLCnnSolicitudesSoporteTecnico: "Server=db,1433;Database=SolicitudesSoporteTecnico;User Id=sa;Password=${SA_PASSWORD};Encrypt=True;TrustServerCertificate=True;"
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    networks:
+      - solicitudes-net
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./SolicitudesSoporteTecnico.Client
+      dockerfile: Dockerfile
+    container_name: solicitudes-frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - api
+    networks:
+      - solicitudes-net
+    restart: unless-stopped
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: solicitudes-db
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+      MSSQL_SA_PASSWORD: ${SA_PASSWORD}
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    networks:
+      - solicitudes-net
+    restart: unless-stopped
+
+networks:
+  solicitudes-net:
+    driver: bridge
+
+volumes:
+  sqlserver-data:
+
+
+

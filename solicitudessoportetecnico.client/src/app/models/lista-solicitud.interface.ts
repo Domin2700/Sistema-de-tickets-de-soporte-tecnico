@@ -10,6 +10,8 @@ export interface ListaSolicitudes {
   nombrePrioridad: string;
   nombreEstado: string;
   idEstado: number;
+  idCategoria: number;
+  idPrioridad: number
   fechaCreacion: string;
   codigoSolicitud?: string | null;
   resolucion?: string | null;

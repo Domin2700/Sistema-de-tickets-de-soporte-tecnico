@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ComentarioFormComponent } from './components/comentario-form/comentario-form.component';
 
 
 export const routes: Routes = [
@@ -20,6 +21,12 @@ export const routes: Routes = [
       import('./components/soporte-tecnico/soporte-tecnico.component')
         .then(m => m.SoporteTecnicoComponent)
   },
+   {
+  path: 'comentarios/:idSolicitud',
+  loadComponent: () =>
+    import('./components/comentario-form/comentario-form.component')
+      .then(m => m.ComentarioFormComponent)
+},
   {
     path: '**',
     redirectTo: 'solicitudes'

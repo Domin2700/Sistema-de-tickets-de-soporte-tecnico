@@ -29,7 +29,7 @@ builder.Services.AddDbContext<SoporteDbContext>(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: "SolicitudesPolicy", configurePolicy: policyBuilder => {
-        policyBuilder.WithOrigins("https://localhost:55923");
+        policyBuilder.WithOrigins("https://localhost:55923", "https://localhost:4200");
         policyBuilder.AllowAnyMethod();
         policyBuilder.AllowAnyHeader();
         policyBuilder.AllowCredentials();

@@ -1,1 +1,138 @@
-<p>comentario-form works!</p>
+<div class="container mt-4 mb-5">
+
+  <!-- Encabezado -->
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+      <h3 class="mb-1">Comentarios de la solicitud</h3>
+      <p class="text-muted mb-0">
+        Solicitud #{{ idSolicitud }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Formulario para registrar comentario -->
+  <div class="card shadow-sm mb-4">
+    <div class="card-header ">
+      <h5 class="mb-0">Registrar comentario</h5>
+    </div>
+
+    <div class="card-body">
+      <form (ngSubmit)="guardarComentario()" #formComentario="ngForm">
+
+        <div class="mb-3">
+          <label for="detalleComentario" class="form-label">
+            Comentario <span class="text-danger">*</span>
+          </label>
+
+          <textarea
+            id="detalleComentario"
+            name="detalleComentario"
+            class="form-control"
+            rows="4"
+            placeholder="Escribe el comentario..."
+            [(ngModel)]="detalleComentario"
+            required
+            maxlength="2000"
+            [disabled]="guardando">
+          </textarea>
+
+          <div class="form-text">
+            Máximo 2000 caracteres.
+          </div>
+        </div>
+
+        <!-- Mensaje de éxito -->
+        <div
+          *ngIf="mensaje"
+          class="alert alert-success"
+          role="alert">
+          {{ mensaje }}
+        </div>
+
+        <!-- Mensaje de error -->
+        <div
+          *ngIf="error"
+          class="alert alert-danger"
+          role="alert">
+          {{ error }}
+        </div>
+
+        <div class="d-flex justify-content-end">
+          <button
+            type="submit"
+            class="btn btn-primary"
+            [disabled]="guardando || !detalleComentario.trim()">
+
+            <span
+              *ngIf="guardando"
+              class="spinner-border spinner-border-sm me-2"
+              role="status"
+              aria-hidden="true">
+            </span>
+
+            {{ guardando ? 'Guardando...' : 'Guardar comentario' }}
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- Tabla de comentarios -->
+  <div class="card shadow-sm">
+    <div class="card-header  d-flex justify-content-between align-items-center">
+      <h5 class="mb-0">Historial de comentarios</h5>
+
+      <span class="badge bg-secondary">
+        {{ comentarios.length }}
+      </span>
+    </div>
+
+    <div class="card-body p-0">
+
+      <div class="table-responsive">
+        <table class="table table-hover table-striped align-middle mb-0">
+
+          <thead class="table-light">
+            <tr>
+              <th style="width: 70px;">#</th>
+              <th>Comentario</th>
+              <th style="width: 200px;">Fecha de creación</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr *ngFor="let comentario of comentarios; let i = index">
+              <td>{{ i + 1 }}</td>
+
+              <td>
+                {{ comentario.detalleComentario }}
+              </td>
+
+              <td>
+                <ng-container *ngIf="comentario.fechaCreacion; else sinFecha">
+                  {{ comentario.fechaCreacion | date:'dd/MM/yyyy HH:mm' }}
+                </ng-container>
+
+                <ng-template #sinFecha>
+                  <span class="text-muted">Sin fecha</span>
+                </ng-template>
+              </td>
+            </tr>
+
+            <tr *ngIf="comentarios.length === 0">
+              <td colspan="3" class="text-center py-4">
+                <div class="text-muted">
+                  No hay comentarios registrados para esta solicitud.
+                </div>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+</div>

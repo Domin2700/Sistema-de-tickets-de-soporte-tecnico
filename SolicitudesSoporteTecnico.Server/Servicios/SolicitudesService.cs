@@ -87,6 +87,8 @@ namespace SolicitudesSoporteTecnico.Server.Servicios
                     NombrePrioridad = s.NombrePrioridad,
                     NombreEstado = s.NombreEstado,
                     IdEstado = s.IdEstado,
+                    IdCategoria = s.IdCategoria,
+                    IdPrioridad = s.IdPrioridad,
                     FechaCreacion = s.FechaCreacion,
                     CodigoSolicitud = s.CodigoSolicitud,
                     Resolucion = s.Resolucion,
@@ -157,6 +159,7 @@ namespace SolicitudesSoporteTecnico.Server.Servicios
        {
             try
             {
+                comentario.FechaCreacion = DateTime.Now;
                 await _context.Comentario.AddAsync(comentario);
                 await _context.SaveChangesAsync();
             }
